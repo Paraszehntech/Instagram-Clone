@@ -27,7 +27,7 @@
     <% if user_signed_in? %>
     <% if current_user.id == pic.user_id %>
       <%= link_to 'edit',edit_pic_path(pic),class:"btn btn-outline-info float-left"%>
-      <%= link_to "Delete Project", custom_delete_pic_path(pic), method: :delete, data: { confirm: 'Are you sure?' },class:"btn btn-outline-danger"%>
+      <%= link_to "Delete Post", custom_delete_pic_path(pic), method: :delete, data: { confirm: 'Are you sure?' },class:"btn btn-outline-danger"%>
     <% end %>
     <% end %>
   </div>

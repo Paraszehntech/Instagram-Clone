@@ -88,4 +88,25 @@
  .backk{
      margin-top: 20px;
  }
- 
+
+footer {
+    background-color:#212529; 
+    position: fixed; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    width: 100%; 
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+    margin: 0 auto; 
+}
+
+footer a {
+  color: white;
+  text-decoration: none; 
+}
+
+footer a:hover {
+  text-decoration: underline; 
+}

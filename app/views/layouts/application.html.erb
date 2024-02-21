@@ -53,14 +53,19 @@
     </nav>
        
     <% flash.each do |type,msg| %>
-    <div class="alert alert-<%= type=="notice" ? "success" : "danger"%> alert-dismissible fade show" role="alert">
-      <strong><%= msg %></strong>
-      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
+      <div class="alert alert-<%= type=="notice" ? "success" : "danger"%> alert-dismissible fade show" role="alert">
+        <strong><%= msg %></strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
     <% end %>
     <div class="container">
-    <%= yield %>
+     <%= yield %>
     </div>
+      <footer class="mt-4">
+        <span>
+        <a href="#">Instagram</a> &nbsp;</span>2024 All Rights Reserved.</span>
+      </footer>
+
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script>
