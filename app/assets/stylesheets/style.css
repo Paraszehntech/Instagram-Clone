@@ -1,0 +1,91 @@
+
+#my_form {
+    min-width:300px;
+    max-width:400px;
+    padding:20px;
+    margin:0 auto;
+    background:#ffffff59; 
+    -webkit-box-shadow: 3px 3px 23px -9px rgba(0,0,0,0.86);
+    -moz-box-shadow: 3px 3px 23px -9px rgba(0,0,0,0.86);
+    box-shadow: 3px 3px 23px -9px rgba(0,0,0,0.86);
+  }
+ 
+  form input {
+     border:1px solid #eee;
+    border-radius:0 !important;
+    padding:5px 8px;
+    color:#444;
+  }
+  .preview{
+    width: 152px;
+  height: 152px;
+  position: relative;
+  border-radius: 100%;
+  border: 6px solid #F8F8F8;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  }
+ 
+ form button {
+ color:#555;
+ background:#ffffffad;
+ border:1px solid #fff !important;
+ margin-top:20px;
+ border-radius:0px Important;
+ }
+ 
+ 
+ .card {
+ background-color: #fff;
+ width: 600px;
+ border: 1px solid rgb(230, 230, 230);
+ }
+ 
+ .card .commentInput {
+ display: flex;
+ padding-left:20px;
+ align-items: center;
+ }
+ 
+ 
+ 
+ 
+ .card .postImage {
+ width: 100%;
+ }
+ 
+ .card .username {
+ padding: 16px;
+ font-weight: 700;
+ color: #262626;
+ display: flex;
+ align-items: center;
+ }
+ 
+ .card .username p {
+ padding-left: 12px;
+ }
+ 
+ .card .username img {
+ width: 30px;
+ height: 30px;
+ border-radius: 30px;
+ }
+ 
+ .card .status {
+ border-bottom: 1px solid #f2f2f2;
+ padding: 16px;
+ }
+ 
+ .card .status b {
+ color: #262626;
+ }
+ 
+ .card .status .like img {
+ padding: 8px;
+ font-size:2rem;
+ width: 24px;
+ }
+ .backk{
+     margin-top: 20px;
+ }
+ 
